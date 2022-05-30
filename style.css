@@ -157,7 +157,7 @@ h2:after {
 }
 
 .col {
-    margin-bottom: 5vh;
+    margin-bottom: 5vh !important;
 }
 
 .links {
