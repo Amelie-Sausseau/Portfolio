@@ -54,6 +54,11 @@ h1 {
     }
 }
 
+.card-body {
+    align-self: center;
+    text-align: center;
+}
+
 .card-img {
     object-fit: cover;
     height: 100vh;
@@ -150,6 +155,21 @@ h2:after {
 .card-body .card-text {
     color: black !important;
 }
+
+.col {
+    margin-bottom: 5vh;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.links a {
+    color: white;
+}
+
 
 #profile,
 #projects,
